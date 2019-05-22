@@ -27,6 +27,17 @@ class Name
   		third_name = t;
   		last_name = l;
 	}
+	explicit Name(string f, string s, string l)
+	{
+		first_name = f;
+		second_name = s;
+		last_name = l;
+	}
+	explicit Name(string f , string l)
+	{
+		first_name = f;
+		last_name = l;
+	}
 	string FirstName()
 	{
 		return first_name;
